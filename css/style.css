@@ -147,6 +147,7 @@ header {
 /** nav **/
 
 nav {
+  position: fixed;
   height: 10%;
   display: flex;
   align-items: center;
