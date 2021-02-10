@@ -5,5 +5,4 @@ new fullpage('#fullpage',{
     navigation: true,
     navigationPosition: 'right',
     navigationTooltips: ['Section 0', 'Section 1'],
-    menu:'#menu',
 });
