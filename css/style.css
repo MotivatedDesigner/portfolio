@@ -18,6 +18,8 @@
   --clr-purple-darker: #5F539B;
   --clr-purple-dark: #776BB3;
   --clr-purple-light: #998FCC;
+
+  --section-padding: 4rem 320px;
 }
 
 
@@ -138,8 +140,8 @@ section {
 
 header {
   height: 100vh;
-  background: url("../img/header-bg.jpg");
-  padding: 4rem 320px;
+  background: linear-gradient(180deg,var(--clr-purple-darker) 0%,var(--clr-blue-darker) 100%);
+  padding: var(--section-padding);
 }
 
 /** nav **/
@@ -489,4 +491,16 @@ label {
   
 .con{
 margin: 4rem 0 ;
+}
+
+@media (max-width:475px){
+
+  :root{
+    --section-padding : 1rem;
+  }
+
+  .hero-img{
+    display: none;
+  }
+
 }
